@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container{
+            background-image: linear-gradient(black,gray,red);
+            min-height: 100vh;
+            border: 10px solid black;
+        }
+        .content{
+            max-width: 900px;
+            margin: 0 auto;
+        }
+        .top_section{
+            display: flex;
+            justify-content: space-between;
+            margin-top: 100px;
+            align-items: flex-end;
+        }
+        .top_section h1{
+            font-size: 40px;
+            font-weight: bold;
+            color:black;
+            text-transform: capitalize;
+        }
+        .top_section h4{
+            font-size: 20px;
+            text-align: end;
+        }
+        .image_container{
+            border-radius: 50%;
+            overflow: hidden;
+            border: 5px solid black;
+        }
+        .image_container, img{
+            width: 300px;
+            height: 320px;
+        }
+        .about_section{
+            margin-top: 50px;
+        }
+        .about_section h2{
+            font-size: 40px;
+            margin-bottom: 50px;
+        }
+        .about_section p{
+            font-size: 20px;
+            line-height: 30px;
+            letter-spacing: 1.2px;
+            text-align: justify;
+            
+        }
+        footer{
+            margin: 50px 0;
+        }
+        footer p{
+            text-align: end;
+        }
+        footer p a{
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+       <div class="content">
+           <div class="top_section">
+            <div class="image_container">
+                <img src="documentary.jpeg" alt="not found">
+            </div>
+            <div>
+                <h1>Charkhi-Dadri Mid Air Collision</h1>
+                <h4>12<sup>th</sup>November 1996</h4>
+            </div>
+           </div>
+           <div class="about_section">
+            <h2>Tragedy in the Skies: Unraveling the Charkhi Dadri Mid-Air Collision</h2>
+            <p>The <b>Charkhi Dadri mid-air collision</b> refers to a tragic incident that occurred on November 12, 1996, in the skies near the village of Charkhi Dadri, in Haryana, India. The collision involved a Saudi Arabian Airlines Boeing 747-100B en route from New Delhi to Dhahran, Saudi Arabia, and a Kazakhstan Airlines Ilyushin Il-76 that was on its way from Chimkent, Kazakhstan, to Delhi.
+
+                The accident resulted in the loss of all 349 lives on board both aircraft, making it one of the deadliest aviation accidents in history. The primary cause of the collision was the lack of proper communication and coordination between the air traffic control (ATC) systems of India and Kazakhstan, compounded by language barriers and misunderstandings.
+                
+                The airspace over Charkhi Dadri was controlled by both Indian and Kazakh controllers, and there were issues with the exchange of information and instructions between them. The aircraft were flying at the same cruising altitude in opposite directions, and neither ATC unit communicated effectively to prevent the impending collision. Additionally, there were deficiencies in the equipment and training of the air traffic controllers.
+                
+                The tragic incident led to improvements in international aviation communication protocols and coordination to prevent similar accidents in the future. It underscored the importance of standardized communication procedures, language proficiency, and collaboration between different air traffic control centers to enhance the safety of air travel worldwide.</p>
+           </div>
+           <footer>
+            <p>For more information please follow the  <a href="https://en.wikipedia.org/wiki/1996_Charkhi_Dadri_mid-air_collision">Wikipedia</a></p>
+           </footer>
+       </div>
+    </div>
+</body>
+</html>
